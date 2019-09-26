@@ -2,9 +2,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
 public class TestMain {
 
-    public class SolutionTest {
         @Test
         public void fixedTests() {
             assertEquals("f", Main.addLetters("a", "b", "c"));
@@ -15,4 +15,5 @@ public class TestMain {
             assertEquals("d", Main.addLetters("y", "c", "b"));
             assertEquals("z", Main.addLetters());
         }
+
 }
