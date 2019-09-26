@@ -10,14 +10,5 @@ public class Main {
         }
         return   String.valueOf( alfa.charAt( i % alfa.length()) )   ;
     }
-
-
-    public static void main(String[]args){
-//        System.out.println( addLetters("a","b","c") );
-//        System.out.println( addLetters("a") );
-//        System.out.println( addLetters("y","b","c") );
-        System.out.println( addLetters() );
-    }
-
-
+    
 }
